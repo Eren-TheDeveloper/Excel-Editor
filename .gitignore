@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local product data and generated workbooks (including demo output)
+*.xlsx
+*.xls
+*.xlsm
+/row_info.json
+/row_header.json
+/tempCodeRunnerFile.py
+/test.py
+/data/
+/output/
+
+# Credentials and local tools
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/

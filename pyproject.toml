@@ -1,0 +1,16 @@
+[project]
+name = "excel-editor"
+version = "0.1.0"
+description = "Excel ürün şablonlarından yeni ürünler oluşturan masaüstü ve komut satırı aracı"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "openpyxl>=3.1.5",
+]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main"]
