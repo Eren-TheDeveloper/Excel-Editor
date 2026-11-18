@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Excel Editor — Ürün Excel Otomasyonu</title>
+  <desc id="desc">Şablonunu seç. Ürünlerini ekle. Excel'in hazır.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#103b35"/>
+    </linearGradient>
+    <linearGradient id="accent" x2="1" y2="1">
+      <stop stop-color="#6ee7b7"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#background)"/>
+  <circle cx="1110" cy="35" r="230" fill="#34d399" opacity=".05"/>
+  <circle cx="1110" cy="35" r="170" fill="none" stroke="#6ee7b7" opacity=".12"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="64" y="75" fill="#6ee7b7" font-size="14" font-weight="700" letter-spacing="4">ÜRÜN EXCEL OTOMASYONU</text>
+    <text x="60" y="153" fill="#f1f5f9" font-size="66" font-weight="700">Excel Editor</text>
+    <text x="64" y="206" fill="#cbd5e1" font-size="24">Şablonunu seç. Ürünlerini ekle. Excel'in hazır.</text>
+    <rect x="64" y="251" width="250" height="39" rx="19" fill="#6ee7b7" opacity=".1"/>
+    <text x="84" y="277" fill="#a7f3d0" font-size="15">PYTHON  /  DESKTOP + CLI</text>
+  </g>
+  <g transform="translate(855 79)">
+    <rect x="16" y="12" width="230" height="204" rx="16" fill="#020617" opacity=".3"/>
+    <rect width="230" height="204" rx="16" fill="#122e2b" stroke="#376458"/>
+    <path d="M16 0h198a16 16 0 0 1 16 16v32H0V16A16 16 0 0 1 16 0" fill="url(#accent)"/>
+    <g stroke="#376458" stroke-width="1">
+      <path d="M0 87h230M0 126h230M0 165h230M73 48v156M150 48v156"/>
+    </g>
+    <g fill="#a7f3d0" opacity=".7">
+      <rect x="18" y="65" width="37" height="6" rx="3"/>
+      <rect x="91" y="65" width="41" height="6" rx="3"/>
+      <rect x="168" y="65" width="43" height="6" rx="3"/>
+      <rect x="18" y="105" width="37" height="6" rx="3"/>
+      <rect x="91" y="105" width="41" height="6" rx="3"/>
+    </g>
+    <circle cx="202" cy="174" r="37" fill="url(#accent)" stroke="#0b1220" stroke-width="6"/>
+    <path d="m188 174 10 10 19-21" fill="none" stroke="#103b35" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
